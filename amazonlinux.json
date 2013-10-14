@@ -13,7 +13,7 @@
   "provisioners": [{
     "type": "chef-solo",
     "cookbook_paths": ["./vendor-cookbooks/"],
-    "run_list": ["timezone", "apache2", "memcached"],
+    "run_list": ["timezone", "apache2", "memcached", "td-agent"],
     "json": {"memcached":{"maxcon":"512","cachesize":"512"}},
     "prevent_sudo": false,
     "skip_install": false
