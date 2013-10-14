@@ -8,7 +8,7 @@
     "instance_type": "t1.micro",
     "ssh_username": "ec2-user",
     "ssh_timeout": "5m",
-    "ami_name": "amznlinux-work"
+    "ami_name": "amznlinux-work2"
   }],
   "provisioners": [{
     "type": "chef-solo",
