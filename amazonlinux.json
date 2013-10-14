@@ -4,7 +4,7 @@
     "access_key": "AKIAIG6IBIYK4PFEE5UQ",
     "secret_key": "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",
     "region": "ap-northeast-1",
-    "source_ami": "ami-39b23d48",
+    "source_ami": "ami-39b23d38",
     "instance_type": "t1.micro",
     "ssh_username": "ec2-user",
     "ssh_timeout": "5m",
